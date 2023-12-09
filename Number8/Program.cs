@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace Number4
+namespace Number8
 {
     static class Program
     {
@@ -13,7 +13,7 @@ namespace Number4
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TextToMorseForm());
+            Application.Run(new ButtonTeleporterForm());
         }
     }
 }

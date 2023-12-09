@@ -2,9 +2,9 @@
 
 namespace Number4
 {
-    public partial class Form1 : Form
+    public partial class TextToMorseForm : Form
     {
-        public Form1()
+        public TextToMorseForm()
         {
             InitializeComponent();
             sourceTextBox.ToMorse(outputTextBox);
